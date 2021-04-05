@@ -1,0 +1,9 @@
+package work1;
+
+public class quickSort {
+	public static int partition(int low, int high) {
+		
+	}
+	public static void quickSort()
+
+}

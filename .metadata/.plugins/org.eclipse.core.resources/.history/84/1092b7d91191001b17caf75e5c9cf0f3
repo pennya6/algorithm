@@ -1,0 +1,64 @@
+//201958008 김시연
+//퀵정렬을 이용한 movie.txt 정렬
+package work1;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Comparator;
+
+public class movie {
+	public class info{
+		private String name;
+		private String dir;
+		private int year;
+		private int sum_p;
+		
+		public info(String name,String dir,int year,int sum_p) {
+			this.name=name;
+			this.dir=dir;
+			this.year=year;
+			this.sum_p=sum_p;
+		}
+		
+		//영화제목 가나다순 비교
+		public static class NameOrder implements Comparator<info>{
+			
+		}
+	}
+	
+	//퀵정렬
+    static void swap(int a[],int idx1, int idx2){
+        int t=a[idx1];
+        a[idx1]=a[idx2];
+        a[idx2]=t;
+    }
+    static void quickSort(int a[],int left,int right){
+        int pl=left;
+        int pr=right;
+        int x=a[(pl+pr)/2];
+        
+        do{
+            while(a[pl]<x) pl++;
+            while(a[pr]>x) pr--;
+            if(pl<=pr)
+                swap(a,pl++,pr--);
+        }while(pl<=pr);
+        
+        if(left<pr) quickSort(a,left,pr);
+        if(pl<right) quickSort(a,pl,right);
+    }
+	
+	public static void main(String[] args) throws IOException, FileNotFoundException {
+		File file=new File("C:/algorithm/movie.txt");
+		FileReader reader=new FileReader(file);
+		int cur=0;
+		while((cur=reader.read())!=-1) {
+			System.out.print((char)cur);
+		}
+		reader.close();
+
+	}
+
+}

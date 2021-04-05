@@ -1,0 +1,8 @@
+package work1;
+
+public class seven {
+	public void change(int x,int y,String color) {
+		String box[][]=new int[][] {};
+	}
+
+}

@@ -1,0 +1,7 @@
+public class PSum implements Comparator<info>{
+		public int compare(info i1, info i2) {
+			if(i1.sum_p<i2.sum_p) return -1;
+			if(i1.sum_p>i2.sum_p) return 1;
+			return 0;
+		}
+	}
