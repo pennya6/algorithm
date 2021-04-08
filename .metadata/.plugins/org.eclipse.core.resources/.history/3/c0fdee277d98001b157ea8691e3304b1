@@ -40,8 +40,7 @@ public class quickSortTest {
 		//Insertion.sort(hits, new movie.dirNameOrder());
 		//Insertion.sort(hits, new movie.YearOrder());
 		//Insertion.sort(hits, new movie.YearOrder2());
-		//Insertion.sort(hits, new movie.PSum());
-		Insertion.sort(hits, new movie.PSum2());
+		Insertion.sort(hits, new movie.PSum());
 		for(movie m:hits)
 			System.out.println(m);	
 		in.close();

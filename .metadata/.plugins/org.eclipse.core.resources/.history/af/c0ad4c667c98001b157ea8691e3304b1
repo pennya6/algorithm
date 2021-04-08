@@ -36,12 +36,7 @@ public class quickSortTest {
 			//System.out.println(hits[i]);
 		//}
 		//quickSort.quickSort(hits, 0, hits.length-1, new movie.NameOrder());
-		//Insertion.sort(hits, new movie.NameOrder());
-		//Insertion.sort(hits, new movie.dirNameOrder());
-		//Insertion.sort(hits, new movie.YearOrder());
-		//Insertion.sort(hits, new movie.YearOrder2());
-		//Insertion.sort(hits, new movie.PSum());
-		Insertion.sort(hits, new movie.PSum2());
+		Insertion.sort(hits, new movie.NameOrder());
 		for(movie m:hits)
 			System.out.println(m);	
 		in.close();
