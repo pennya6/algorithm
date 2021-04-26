@@ -1,9 +1,0 @@
-package work1;
-
-public class six {
-
-	public int mcss_bfs(Object a[],int n) {
-		
-	};
-
-}

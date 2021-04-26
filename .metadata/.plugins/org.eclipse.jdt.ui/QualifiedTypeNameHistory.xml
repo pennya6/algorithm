@@ -2,21 +2,27 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="sort.Insertion"/>
     <fullyQualifiedTypeName name="sort.Movie.YearOrder"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="work1.quickSort"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="work1.Insertion"/>
     <fullyQualifiedTypeName name="work1.movie.NameOrder"/>
     <fullyQualifiedTypeName name="work1.movie.dirNameOrder"/>
     <fullyQualifiedTypeName name="work1.movie.YearOrder"/>
     <fullyQualifiedTypeName name="work1.movie.PSum"/>
+    <fullyQualifiedTypeName name="work2.AIRPORT"/>
+    <fullyQualifiedTypeName name="java.util.Hashtable"/>
+    <fullyQualifiedTypeName name="work2.HashTable"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+    <fullyQualifiedTypeName name="sun.tools.java.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

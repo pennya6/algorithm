@@ -1,5 +1,0 @@
-package work1;
-
-public class six_c {
-	public int mcss_rec(int low, int high)
-}

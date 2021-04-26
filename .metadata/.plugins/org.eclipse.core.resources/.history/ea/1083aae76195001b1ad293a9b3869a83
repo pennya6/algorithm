@@ -1,7 +1,0 @@
-package work1;
-
-public class six_c {
-	public int mcss_rec(int low, int high) {
-		return max(left_sum,right_sum,two_sided_sum)
-	}
-}
