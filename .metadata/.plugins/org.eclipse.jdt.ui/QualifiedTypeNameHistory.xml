@@ -15,7 +15,6 @@
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
     <fullyQualifiedTypeName name="sun.tools.java.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="work1.Quick"/>
     <fullyQualifiedTypeName name="work1.movie.NameOrder"/>
     <fullyQualifiedTypeName name="work1.movie.dirNameOrder"/>
@@ -30,6 +29,8 @@
     <fullyQualifiedTypeName name="midterm.Insertion"/>
     <fullyQualifiedTypeName name="midterm.Idol.NameOrder"/>
     <fullyQualifiedTypeName name="midterm.Idol.YearOrder"/>
+    <fullyQualifiedTypeName name="subnet"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
