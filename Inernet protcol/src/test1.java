@@ -51,7 +51,7 @@ public class test1 {
 			// 총 개수 구하기
 			int how=(int) (Math.pow(2, 32-sn)-2);
 			//System.out.println(how);
-			output(x,y,z,w,how,sni,sn);
+			output(x,y,z,w,how,sni,sn,n);
 			
 			
 			
@@ -65,8 +65,8 @@ public class test1 {
 		 return output="?";
 	}
 	//254 입력받아서 피자 나누기이후에 값 받기
-	static void output(int x, int y, int z,int w, int how, int sni[],int sn) {
-		int x1[]=new int[] {3,0,10,110,1110};
+	static void output(int x, int y, int z,int w, int how, int sni[],int sn,int n) {
+		int x1[]=new int[] {3,0,10,110,1110,0,0,0};
 		
 		//진수 출력
 		  int nw_id1_int[]=new int[sni.length];
